@@ -1,0 +1,19 @@
+{% if page.previous or page.next %}
+	<div class="pagination">
+		{% if page.next %}
+			<!-- <a href="{{ page.next.url | relative_url }}" class="next" title="{{ page.next.title | markdownify | strip_html }}">{{ site.data.ui-text[site.locale].pagination_next | default: "Next" }}</a> -->
+			<a href="{{ page.next.url | relative_url }}" class="next" title="{{ page.next.title | markdownify | strip_html }}">Newer</a>
+		{% else %}
+			<!-- <span>{{ site.data.ui-text[site.locale].pagination_next | default: "Next" }}</span> -->
+			<span>Newer</span>
+		{% endif %}
+
+		{% if page.previous %}
+			<!-- <a href="{{ page.previous.url | relative_url }}" title="{{ page.previous.title | markdownify | strip_html }}">{{ site.data.ui-text[site.locale].pagination_previous | default: "Previous" }}</a> -->
+			<a href="{{ page.previous.url | relative_url }}" title="{{ page.previous.title | markdownify | strip_html }}">Older</a>
+		{% else %}
+			<!-- <span>{{ site.data.ui-text[site.locale].pagination_previous | default: "Previous" }}</span> -->
+			<span>Older</span>
+		{% endif %}
+	</div>
+{% endif %}

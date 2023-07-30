@@ -1,0 +1,22 @@
+.nav {
+  float: left;
+  width: 15%;
+  height: 100%;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 3em;
+}
+
+.nav ul {
+  font-style: italic;
+  font-weight: lighter;
+  list-style: none;
+  text-align: right;
+  padding-right: 1em;
+}
+
+.nav li {
+  padding: .2em;
+  font-size: 1.1em;
+  text-transform: uppercase;
+}

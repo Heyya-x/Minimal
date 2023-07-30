@@ -1,0 +1,38 @@
+.main {
+  float: left;
+  width: 85%;
+  margin-right: 2em;
+  margin-top: -1em;
+}
+
+.post {
+  text-align: justify;
+}
+
+.post-header {
+  font-size: 1.5em;
+}
+
+.post-header h2 {
+  margin-bottom: 0em;
+}
+
+.post-header time {
+  font-size: 0.8em;
+  color: gray;
+}
+
+section {
+  font-size: 1.2em;
+}
+
+section blockquote {
+  margin-left: 0;
+  padding-left: 1em;
+  border-left: 0.25rem solid gray;
+}
+
+section img {
+  width: 100%;
+  border-radius: .5em;
+}

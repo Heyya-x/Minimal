@@ -1,0 +1,8 @@
+<ul class="nav-menu">
+	{%- for link in site.data.navigation.main -%}
+		<li class="nav-menu-item">
+			<a href="{{ link.url | relative_url }}">{{ link.title }}</a>
+		</li>
+	{%- endfor -%}
+	</li>
+</ul>

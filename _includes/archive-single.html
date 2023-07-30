@@ -1,0 +1,19 @@
+<article class="post">
+    <div class="post-header">
+        {% assign date = post.date | default: page.date %}
+        {% assign date_format = site.date_format | default: "%B.%-d.%Y" %}
+        <h2>
+            <!-- TODO: title of date -->
+            {% if post.title %}
+                <a href="{{ post.url }}">{{ post.title }}</a>
+            {% else %}
+                {% assign date_title_format = site.date_format | default: "%Y.%-b.%-d" %}
+                <a href="{{ post.url }}">{{ date | date: date_format }}</a>
+            {% endif %}
+        </h2>
+        <time datetime="{{ date | date_to_xmlschema }}">{{ date | date: date_format }}</time>
+    </div>
+    <section>
+        {{ post.content }}
+    </section>
+</article>

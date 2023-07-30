@@ -1,0 +1,58 @@
+---
+---
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		{% include_cached head.html %}
+	</head>
+
+	<body>
+		
+		<header class="splash-header">
+			<h1 class="site-title">{{ site.title }}</h1>
+		</header>
+		<div class="initial-content">
+			<div class="nav">
+				{% include_cached navigation.html %}
+			</div>
+			<div class="splash-main">
+				<div class="thumbnails">
+					{% for collection in site.collections %}
+						{% for post in collection.docs %}
+							{% unless collection.output == false or collection.label == "posts" %}
+								<div class="thumbbox">
+									<div class="thumb">
+										<a class="thubm-a" href="{{ post.url }}">
+											<img src="{{ post.img }}" alt="">
+										</a>
+									</div>
+								</div>
+							{% endunless %}
+						{% endfor %}
+					{% endfor %}
+					<!-- {% for post in site.posts %}
+						  {% if post.type == "photo" %}
+							  <div class="thumbbox">
+								  <div class="thumb">
+									  <a class="thubm-a" href="{{ post.url }}">
+										  <img src="{{ post.img }}" alt="">
+									  </a>
+								  </div>
+							  </div>
+						  {% endif %}
+					{% endfor %} -->
+				  </div>
+			</div>
+		</div>
+
+		<!-- <footer>
+			{% include_cached footer.html %}
+		</footer> -->
+
+	</body>
+</html>
+
+
+
+
+<!-- {% include pagination.html %} -->

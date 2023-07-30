@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<div class="archive">
+	<div class="archive">
+		<article class="post">
+			<div class="post-header">
+				<h2>
+					{{ page.title }}
+				</h2>
+				<time class="post-date">{{ page.date }}</time>
+			</div>
+			<section>
+				{{ content }}
+			</section>
+		</article>
+  </div>
+</div>
+{% include post-pagination.html %}

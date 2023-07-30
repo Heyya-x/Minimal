@@ -1,0 +1,74 @@
+:root {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+
+  // overflow-x: hidden;
+}
+
+body {
+  font-family: 'Source Code Pro', monospace;
+  background-color: $theme-bg-color;
+  color: black;
+  position: relative;
+  -webkit-transition:  color .5s, background-color .5s, -webkit-transform .5s;
+  transition: color .5s, background-color .5s, transform .5s;
+}
+
+a {
+  transition: all .1s ease-in-out;
+  color: $theme-text-color;
+  text-decoration: none;
+  text-underline-offset: 0rem;
+  bottom: 0em;
+}
+
+a:hover {
+  position: relative;
+  bottom: 0.05rem;
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-underline-offset: 0.3rem;
+}
+
+.initial-content {
+  display: flex;
+  margin: 0;
+  height: 100%;
+}
+
+@media (max-width: 52em) {
+  .initial-content {
+    display: block;
+  }
+  
+  .nav {
+    float: left;
+    width: 100%;
+    display: block;
+  }
+  
+  .nav ul {
+    text-align: center;
+  }
+  
+  .nav ul li {
+    display: inline;
+    list-style: none;
+  }
+  
+  .main {
+    // float: left;
+    margin-left: 1em;
+    margin-right: 1em;
+    width: auto;
+  }
+
+  header {
+    margin-top: 1em;
+  }
+
+  section {
+    font-size: 1em;
+  }
+}

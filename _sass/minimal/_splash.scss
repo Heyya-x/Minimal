@@ -1,0 +1,100 @@
+.splash-header {
+	width: 15%;
+	// margin-left: 0em;
+	// font-size: 1.5em;
+	font-size: 1.5vw;
+	margin-top: 4em;
+	margin-bottom: 1em;
+	letter-spacing: .2em;
+	// line-height: 1.5em;
+  }
+  
+.splash-header h1 {
+	display: flex;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.splash-main {
+	float: left;
+	width: 85%;
+	margin-right: 2em;
+	margin-top: -5em;
+}
+
+.thubmbnails {
+	display: block;
+}
+
+.thumbbox {
+	padding: 0.3em;
+	width: calc(100% / 4 - 0.6em);
+	float: left;
+	transition: all .5s;
+}
+
+.thumb a:hover {
+	position: static;
+}
+
+.thumb-single {
+  text-align: center;
+}
+
+.thumb-single img {
+  // height: 100%;
+  max-height: 80vh;
+}
+
+@media (max-width: 90em) {
+	.thumbbox {
+		width: calc(100% / 3 - 0.6em);
+	}
+}
+
+@media (max-width: 70em) {
+	.thumbbox {
+		width: calc(100% / 2 - 0.6em);
+	}
+}
+
+@media (max-width: 45em) {
+	.thumbbox {
+		width: calc(100% / 1 - 0.6em);
+	}
+}
+
+
+.thumb {
+	position: relative;
+	width: 100%;
+	padding-bottom: 100%;
+	height: 0;
+	float: left;
+}
+
+.thumb img {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	object-fit: cover;
+}
+
+@media (max-width: 52em) {
+
+	.splash-main {
+		// float: left;
+		display: block;
+		margin-top: 1em;
+		margin-left: 1em;
+		margin-right: 1em;
+		width: calc(100% - 2em);
+	}
+
+	.splash-header {
+		// margin-top: 1em;
+		width: 100%;
+		font-size: 1.5em;
+		margin-top: 1em;
+	}
+}

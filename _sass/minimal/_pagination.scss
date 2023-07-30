@@ -1,0 +1,34 @@
+.pagination {
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+}
+
+.pagination a, span{
+  float: left;
+  width: 50%;
+  margin: 2em 0;
+  padding: 1.4em 0;
+  font-size: 1.2em;
+}
+
+.pagination span {
+  color: gray;
+}
+
+.pagination a:first-child{
+  border-top-left-radius: 0.2em;
+  border-bottom-left-radius: 0.2em;
+}
+
+.pagination a:last-child {
+  border-top-right-radius: 0.2em;
+  border-bottom-right-radius: 0.2em;
+}
+
+.pagination a:hover {
+  background-color: $theme-text-color;
+  color: $theme-bg-color;
+  cursor: pointer;
+  text-decoration: none;
+}
