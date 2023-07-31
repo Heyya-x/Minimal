@@ -12,7 +12,13 @@ Minimal is a personal Jekyll theme under development. The theme aims for a minim
 | ------------------------------------------ | ------------------------- |
 | [Heyya's memo](https://memo.kaijunzhu.com) | My personal memo website. |
 
+|                          `default`                           |                            `dark`                            |
+| :----------------------------------------------------------: | :----------------------------------------------------------: |
+| ![minimal](/Users/Heyya/Library/Mobile Documents/com~apple~CloudDocs/Develop/GitHub/Minimal/minimal.png) | ![minimal-dark](/Users/Heyya/Library/Mobile Documents/com~apple~CloudDocs/Develop/GitHub/Minimal/minimal-dark.png) |
+
 ## Installation
+
+
 
 There are two ways to install: 
 
