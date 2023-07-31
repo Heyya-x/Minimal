@@ -7,10 +7,11 @@
 
 .post {
   text-align: justify;
+  width: 100%;
 }
 
 .post-header {
-  font-size: 1.5em;
+  font-size: 1.375rem;
 }
 
 .post-header h2 {
@@ -18,12 +19,12 @@
 }
 
 .post-header time {
-  font-size: 0.8em;
+  font-size: 1rem;
   color: gray;
 }
 
 section {
-  font-size: 1.2em;
+  font-size: 1.0625rem;
 }
 
 section blockquote {
@@ -38,20 +39,28 @@ section img {
 }
 
 section pre {
-	width: auto;
-	padding-top: .5em;
-	padding-bottom: .5em;
+  width: auto;
+  padding-top: .5em;
+  padding-bottom: .5em;
 //	margin-right: 20%;
-	padding-left: 20px;
-	background-color: #EFEFEF;
-	font-size: 1em;
-	border-radius: .4em;
-	line-height: 2em;
+  padding-left: 20px;
+  background-color: #EFEFEF;
+  font-size: 1rem;
+  border-radius: .4em;
+  line-height: 2em;
+}
+
+code:not(pre code) {
+  border-radius: .4em;
+  background-color: #EFEFEF;
+  padding: 0.2rem;
 }
 
 
 section pre span {
 	float: none;
 	margin-left: 1rem;
-	font-size: 1em;
+	font-size: 1rem;
 }
+
+

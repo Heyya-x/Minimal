@@ -12,8 +12,8 @@
     color: $theme-text-color-dark;
   }
   
-  section pre {
-		background-color: #202020;
+  section pre, code:not(pre code) {
+	background-color: #202020;
   }
 
   .pagination a:hover {
