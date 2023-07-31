@@ -42,7 +42,7 @@ defaults:
     values:
       layout: single
 
-  # # _imgae
+  # _imgae
   # - scope:
   #     path: "_splash"
   #     type: splash
