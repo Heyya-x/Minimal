@@ -19,8 +19,6 @@ Minimal is a personal Jekyll theme under development. The theme aims for a minim
 
 ## Installation
 
-
-
 There are two ways to install: 
 
 1. gem-based theme (Exist a bug);
