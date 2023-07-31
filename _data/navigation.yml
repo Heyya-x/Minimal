@@ -6,4 +6,4 @@ main:
   - title: "splash"
     url: "/splash"
   - title: "About"
-    url: "https://kaijunzhu.com"
+    url: "/about/"

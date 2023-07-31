@@ -12,8 +12,14 @@
     color: $theme-text-color-dark;
   }
   
+  section pre {
+		background-color: #202020;
+  }
+
   .pagination a:hover {
     background-color: $theme-text-color-dark;
     color: $theme-bg-color-dark;
   }
+
+
 }
