@@ -19,7 +19,7 @@
 }
 
 .post-header time {
-  font-size: 1.0625rem; // TODO
+  font-size: 1.0625rem; // TODO To fix error size
   color: gray;
 }
 
@@ -42,12 +42,13 @@ section pre {
   width: auto;
   padding-top: .5em;
   padding-bottom: .5em;
-//	margin-right: 20%;
   padding-left: 20px;
   background-color: #EFEFEF;
   font-size: $h-size-caption;
   border-radius: .4em;
-  //line-height: 1.2em;
+
+  overflow-x: auto; //TODO To be optimismed
+  overflow-y: hidden;
 }
 
 code:not(pre code) {
@@ -55,7 +56,6 @@ code:not(pre code) {
   background-color: #EFEFEF;
   padding: 0.2rem;
 }
-
 
 section pre span {
 	float: none;

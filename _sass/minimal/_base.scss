@@ -14,6 +14,14 @@ body {
   transition: color .5s, background-color .5s, transform .5s;
 }
 
+h2, h3, h4, h5, h6 {
+	//word-break: normal;
+}
+
+p {
+	//word-break: normal;
+}
+
 a {
   transition: all .1s ease-in-out;
   color: $theme-text-color;
