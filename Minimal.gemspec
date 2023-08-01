@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "minimal-jekyll"
-  spec.version       = "0.0.2"
+  spec.version       = "0.0.3"
   spec.authors       = ["Heyya"]
 
   spec.summary       = "Minimal aims for a minimalistic design that is aesthetically pleasing and sophisticated."

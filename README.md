@@ -19,11 +19,13 @@ Minimal is a personal Jekyll theme under development. The theme aims for a minim
 
 ## Installation
 
-There are two ways to install: 
+There are three ways to install: 
 
-1. gem-based theme (Exist a bug);
+1. [gem-based theme](https://jekyllrb.com/docs/themes/#understanding-gem-based-themes) (Exist a bug);
 
-2. forking/directly copying all of the theme files to your project. (Recommanded in this version)
+2. [remote theme](https://github.blog/2017-11-29-use-any-theme-with-github-pages/)
+
+3. forking/directly copying all of the theme files to your project. (Recommanded in this version)
 
 ### Gem-based method
 
@@ -55,6 +57,31 @@ To update the theme run:
 bundle update
 ```
 
+### Remote theme method
+
+To install:
+
+1. Create or replace the content of your Gemfile with the following:
+
+	```
+	source "https://rubygems.org"
+	
+	# If you have any plugins, put them here!
+	group :jekyll_plugins do
+	  gem "github-pages"
+	  gem "jekyll-include-cache"
+	  gem "webrick
+	end
+	```
+
+2. Fetch and update bundled gems by running the following [Bundler](http://bundler.io/) command:
+
+	```
+	bundle
+	```
+
+3. Add  `remote_theme: heyya-x/minmal` to your `_config.yml` file. And don't forget to remove any other `theme:` or `remote_theme: `.
+
 ## Usage
 
 There is still a bug remain with gem-based method, it fill be fixed in future.
@@ -82,7 +109,7 @@ bundle exec jekyll serve
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/Minimal. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](https://www.contributor-covenant.org/) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/Heyya-x/Minimal. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](https://www.contributor-covenant.org/) code of conduct.
 
 ## Development
 

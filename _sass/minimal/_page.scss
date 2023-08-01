@@ -11,7 +11,7 @@
 }
 
 .post-header {
-  font-size: 1.375rem;
+  font-size: $h-size-heading2;
 }
 
 .post-header h2 {
@@ -19,12 +19,12 @@
 }
 
 .post-header time {
-  font-size: 1rem;
+  font-size: 1.0625rem; // TODO
   color: gray;
 }
 
 section {
-  font-size: 1.0625rem;
+  font-size: $h-size-body;
 }
 
 section blockquote {
@@ -45,9 +45,9 @@ section pre {
 //	margin-right: 20%;
   padding-left: 20px;
   background-color: #EFEFEF;
-  font-size: 1rem;
+  font-size: $h-size-caption;
   border-radius: .4em;
-  line-height: 2em;
+  //line-height: 1.2em;
 }
 
 code:not(pre code) {
@@ -60,7 +60,7 @@ code:not(pre code) {
 section pre span {
 	float: none;
 	margin-left: 1rem;
-	font-size: 1rem;
+	font-size: $h-size-caption;
 }
 
 
