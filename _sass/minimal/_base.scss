@@ -12,6 +12,8 @@ body {
   position: relative;
   -webkit-transition:  color .5s, background-color .5s, -webkit-transform .5s;
   transition: color .5s, background-color .5s, transform .5s;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
 }
 
 h2, h3, h4, h5, h6 {
