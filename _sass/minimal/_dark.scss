@@ -21,5 +21,13 @@
     color: $theme-bg-color-dark;
   }
 
-
+  .timeline:before {
+	background: $timeline-color-dark;
+  }
+  .timenode-head:before {
+	background: $timeline-point-color-dark;
+  }
+  .timenode-body {
+	background: $timeline-body-color-dark;
+  }
 }

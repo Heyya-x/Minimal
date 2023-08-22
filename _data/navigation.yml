@@ -5,5 +5,7 @@ main:
     url: "/archive/"
   - title: "splash"
     url: "/splash"
+  - title: "timeline"
+    url: "/timeline"
   - title: "About"
     url: "/about/"

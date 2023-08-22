@@ -1,0 +1,44 @@
+.timeline {
+  position: relative;
+  font-size: 17px;
+  margin-left: 1em;
+}
+
+.timeline:before {
+  content: '';
+  background: $timeline-color;
+  width: 4px;
+  position: absolute;
+  left: 0;
+  top: .5em;
+  bottom: 0;
+}
+
+.timenode {
+  position: relative;
+  margin-left: 1em;
+}
+
+.timenode-head p {
+  font-size: $h-size-heading3;
+}
+
+.timenode-head:before {
+  content: '';
+  background: $timeline-point-color;
+  position: absolute;
+  width: 4px;
+  left: 0;
+  top: .5em;
+  left: -17px;
+  height: 4px;
+  border-radius: 2px;
+  transform: scale(2);
+}
+
+.timenode-body {
+  background: $timeline-body-color;
+  max-width: 80%;
+  padding: .5em .5em .5em 1em;
+  border-radius: .5em;
+}

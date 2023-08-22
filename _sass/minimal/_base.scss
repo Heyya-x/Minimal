@@ -81,4 +81,12 @@ a:hover {
   header {
     margin-top: 1em;
   }
+
+  .timeline {
+	width: 100%;
+  }
+
+  .timenode-body {
+	max-width: calc(100% - 2.5rem);
+  }
 }

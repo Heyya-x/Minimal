@@ -4,7 +4,6 @@ layout: default
 
 <div class="archive">
   {% for post in site.posts %}
-    {% if post.type != "photo" %}
       <article class="post">
         <div class="post-header">
             <h2>
@@ -13,6 +12,5 @@ layout: default
             <time class="post-date">{{ post.date | replace: "-", " "}}</time>
         </div>
       </article>
-    {% endif %}
   {% endfor %} 
 </div>
