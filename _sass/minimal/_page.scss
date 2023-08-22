@@ -35,7 +35,34 @@ section blockquote {
 
 section img {
   width: 100%;
+  object-fit: cover;
   border-radius: .5em;
+  max-width: 40em;
+}
+
+/* .raw, .horizon, .vertical {
+  padding-top: .5em;
+  align-items: center;
+}
+
+.horizon img {
+  height: 25vh;
+}
+
+.vertical img {
+  height: 80vh;
+  object-fit: cover;
+}
+*/
+
+.horizon {
+  width: 100%;
+  height: 25vh;
+}
+
+.vertical {
+  width: 100%;
+  height: 80vh;
 }
 
 section pre {
@@ -63,4 +90,6 @@ section pre span {
 	font-size: $h-size-caption;
 }
 
-
+section iframe {
+	width: 100%;
+}
