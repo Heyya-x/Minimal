@@ -89,4 +89,12 @@ a:hover {
   .timenode-body {
 	max-width: calc(100% - 2.5rem);
   }
+  
+  #error-section p {
+	display: flex;
+	justify-content: center;
+  }
+  .dee {
+	padding-left: 0;
+  }
 }
