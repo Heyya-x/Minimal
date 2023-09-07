@@ -1,0 +1,21 @@
+---
+layout: default
+---
+<article class="post">
+    <div class="post-header" id="error-post-header">
+        <h2>
+			The page you’re looking for can’t be found.
+        </h2>
+    </div>
+    <section class="section" id="error-section">
+		<p>
+			{% if post.content == "waddle-dees" %}
+				<img class="dee" src="/waddle-dees-medium-up-2x.png">
+			{% elsif post.content == "lotso" %}
+				<div class="lotso"></div>
+			{% else post.content == "" %}
+				<div class="lotso"></div>
+			{% endif %}
+		</p>
+	</section>
+</article>
