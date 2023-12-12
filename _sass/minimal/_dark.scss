@@ -1,7 +1,9 @@
 @media (prefers-color-scheme: dark) {
   body {
     background-color: $theme-bg-color-dark;
-    color: white;
+    // color: white;
+
+    color: $theme-paragraph-color;
   }
   
   header h1 {
