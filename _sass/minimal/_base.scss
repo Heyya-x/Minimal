@@ -6,7 +6,7 @@
 }
 
 html {
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 body {
@@ -74,10 +74,15 @@ a:hover {
   .main {
     // float: left;
     margin-left: 1rem;
-	padding-right: 1rem;
-	width: calc(100% - 2rem)
+    padding-right: 1rem;
+    width: calc(100% - 2rem)
   }
-
+  .post-header {
+    font-size: $h-size-heading3;
+  }
+  section {
+    font-size: $h-size-body-smaller;
+  }
   .archive {
 	  width: 100%;
   }
