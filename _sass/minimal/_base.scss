@@ -73,9 +73,10 @@ a:hover {
   
   .main {
     // float: left;
-    margin-left: 1rem;
-    padding-right: 1rem;
-    width: calc(100% - 2rem)
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    // padding-right: 1rem;
+    // width: calc(100% - 2rem)
   }
   .post-header {
     font-size: $h-size-heading3;
