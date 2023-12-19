@@ -75,14 +75,18 @@ a:hover {
     // float: left;
     margin-left: 0.5rem;
     margin-right: 0.5rem;
+    // width: 100%;
     // padding-right: 1rem;
-    // width: calc(100% - 2rem)
+    width: calc(100% - 1rem);
   }
   .post-header {
     font-size: $h-size-heading3;
   }
   section {
     font-size: $h-size-body-smaller;
+  }
+  section img {
+    max-width: none;
   }
   .archive {
 	  width: 100%;
