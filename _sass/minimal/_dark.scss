@@ -30,4 +30,17 @@
   .timenode-body {
 	background: $timeline-body-color-dark;
   }
+
+  ::selection {
+    color: $theme-bg-color-dark;
+    background-color: $theme-selection-color-dark;
+  }
+  a::selection {
+    color: $theme-text-color-dark;
+    background-color: $theme-selection-color-dark;
+  }
+  h1::selection {
+    color: $theme-text-color-dark;
+    background-color: $theme-selection-color-dark;
+  }
 }

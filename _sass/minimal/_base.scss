@@ -51,6 +51,19 @@ a:hover {
   height: 100%;
 }
 
+::selection {
+  color: $theme-bg-color;
+  background-color: $theme-selection-color;
+}
+a::selection {
+  color: $theme-text-color;
+  background-color: $theme-selection-color;
+}
+h1::selection {
+  color: $theme-text-color;
+  background-color: $theme-selection-color;
+}
+
 @media (max-width: 52em) {
   .initial-content {
     display: block;
